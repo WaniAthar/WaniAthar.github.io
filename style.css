@@ -1,0 +1,141 @@
+/* font-family: 'Inter', sans-serif; */
+* {
+    font-family: 'Inter', sans-serif;
+    /* background-color: #151965; */
+}
+
+
+body {
+    background-color: #1619bd;
+    background-image: linear-gradient(315deg, #1619bd 0%, #1a1dda 74%);
+}
+
+.main-content {
+    padding: 5%;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: -0.06em;
+
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 8vw;
+    color: #0A0908;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.social-text {
+    font-weight: 700;
+    font-size: 2.2vw;
+    color: #0A0908;
+    letter-spacing: -0.04em;
+}
+
+.socials {
+    padding: 3% !important;
+    background-color: #0143f7a6;
+}
+
+.say-hi {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: -0.04em;
+    padding-left: 0%;
+    font-size: 1.6em;
+    list-style: none;
+}
+
+.fab,
+.fas {
+    color: #0A0908;
+    font-size: 1.3em;
+    padding: 0 0.8em 0 0em;
+}
+
+.fab:hover,
+.fas:hover {
+    color: #413e3c;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    background-color: #EAFFFD;
+    height: 15vh;
+    display: flex;
+    border-radius: 0.5em;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.main-container {
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    background-color: #EAFFFD;
+    height: 70vh;
+    /* display: flex; */
+    border-radius: 0.5em;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.container p {
+    font-size: 3.6vw;
+    padding: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+    letter-spacing: -0.06em;
+}
+
+.container p span.typed-text {
+    font-weight: 800;
+    color: #895B1E;
+    letter-spacing: -0.03em;
+
+}
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.container p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+
+    49% {
+        background-color: #ccc;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}
