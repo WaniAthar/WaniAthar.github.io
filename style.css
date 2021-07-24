@@ -6,8 +6,8 @@
 
 
 body {
-    background-color: #1619bd;
-    background-image: linear-gradient(315deg, #1619bd 0%, #1a1dda 74%);
+    background-color: #16bd2c;
+    background-image: linear-gradient(315deg, #16bd2c 0%, #5ccf6c 74%);
 }
 
 .main-content {
@@ -38,7 +38,7 @@ h3 {
 
 .socials {
     padding: 3% !important;
-    background-color: #0143f7a6;
+    background-color: #0f7720a6;
 }
 
 .say-hi {
@@ -101,7 +101,7 @@ a {
 
 .container p span.typed-text {
     font-weight: 800;
-    color: #895B1E;
+    color: #8fd310f1;
     letter-spacing: -0.03em;
 
 }
